@@ -1,4 +1,4 @@
-import React ffrom 'react';
+import React from 'react';
 
 
 const ImageList = ( ) => {
