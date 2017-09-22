@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
 import ImageList from './components/image_list';
 
 
-const App = () => {
+class App extends Component {
+  render() {
   return (
         <div>
             <ImageList />
@@ -12,6 +13,7 @@ const App = () => {
 
     );
 
+ }
 };
 
 Meteor.startup( () => {
