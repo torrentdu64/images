@@ -19,7 +19,7 @@ componentWillMount() {
   render() {
   return (
         <div>
-            <ImageList />
+            <ImageList images={this.state.images}/>
         </div>
 
     );
